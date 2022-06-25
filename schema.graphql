@@ -1,0 +1,7 @@
+type Voted @entity {
+  id: ID!
+  balance: BigInt # the balance
+  referenda: BigInt # The referenda index
+  vote: Boolean! # aye or nay
+  voter: String! # voter account
+}
